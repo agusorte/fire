@@ -1,0 +1,5 @@
+project(color_seg)
+find_package( OpenCV REQUIRED )
+add_executable(gmm main.cpp)
+
+target_link_libraries(color_seg  ${OpenCV_LIBS} )

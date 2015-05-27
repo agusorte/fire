@@ -1,0 +1,5 @@
+project(ground_truth)
+find_package( OpenCV REQUIRED )
+add_executable(ground_truth main.cpp evaluation_criteria.cpp utilities.cpp)
+
+target_link_libraries(ground_truth  ${OpenCV_LIBS})

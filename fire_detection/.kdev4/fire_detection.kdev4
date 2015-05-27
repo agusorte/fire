@@ -1,0 +1,33 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1c\x00f\x00i\x00r\x00e\x00_\x00d\x00e\x00t\x00e\x00c\x00t\x00i\x00o\x00n)
+
+[CMake]
+BuildDirs=/home/aortega/proyectos/fire/code/c++/fire_dynamic_segmentation/fire_detection/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/aortega/proyectos/fire/code/c++/fire_dynamic_segmentation/fire_detection/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Native Application Configuration
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=/home/aortega/proyectos/fire/data/fire_sequences/Securite_civile/Exp1/visible/
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=fire_detection,fire_detection
+Use External Terminal=false
+Working Directory=
+isExecutable=false
